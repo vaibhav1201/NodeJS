@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Noto+Sans+Limbu&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: brown;
+}
+p{
+    color: blue;
+}
+nav{
+    background-color: grey;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    font-size: 22px;
+}
+li{
+    list-style: none;
+    padding: 0px 5rem;
+    color: rgb(183, 53, 50);
+    font-family: 'Rubik Bubbles', cursive;
+
+}
+a{
+    text-decoration: none;
+}
+form{
+    margin: 2rem 2rem;
+    text-align: center;
+}
+input, button{
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+    width: 90%;
+    border: 0px;
+    border-radius: 30px;
+}
+button{
+    color: aliceblue;
+    background-color: grey;
+    border-radius: 30px;
+}
+button:hover{
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
